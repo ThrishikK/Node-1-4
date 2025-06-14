@@ -1,11 +1,15 @@
 {
-  "name": "Document-1",
+  "name": "document-1",
   "version": "1.0.0",
   "description": "\"Node Doc 1",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon /5)Sending_Data/index.js"
   },
   "author": "\"Me\"",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
